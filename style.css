@@ -1,2 +1,16 @@
 .main-header {
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.grouped-items {
+    display: flex;
+    flex-direction: row;
+}
+
+.grouped-items * {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
