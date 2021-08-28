@@ -4,45 +4,61 @@
 <head>
     <title> Google</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Arimo">
+
 </head>
 
 <body>
 
-<header>
-    <nav class="main-header">
-        <div class="grouped-items">
-            <p>About</p>
-            <p>Store</p>
-        </div>
-        <div class="grouped-items">
-            <p>Gmail</p>
-            <p>Images</p>
-            <img src="" alt="">
-            <button>Sign in</button>
-        </div>
-    </nav>
-</header>
+    <header>
+        <nav class="main-header">
+            <div class="grouped-items">
+                <p>About</p>
+                <p>Store</p>
+            </div>
+            <div class="grouped-items">
+                <p>Gmail</p>
+                <p>Images</p>
+                <span class="material-icons">
+                    apps
+                </span>
+                <button class="button1">Sign in</button>
+            </div>
+        </nav>
+    </header>
 
-<main class="main-main">
-    <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="">
-    <form action="">
-        <label for="search">Search</label>
-        <textarea name="search" id="search" cols="30" rows="1"></textarea>
-    </form>
-</main>
+    <main class="main-main">
+        <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="">
+        <form action="" class="form">
+            <span class="material-icons" style="margin-right: 1rem;">
+                search
+                </span>
+            <input type="text" name="search" style="height: 100%; border: 0px; background-color: transparent;">
+        </form>
+        <div style="display: flex; flex-direction: row;">
+            <button class="button2" style="margin-right: 1rem;">
+                <p>Google Search</p>
+            </button>
+            <button class="button2">
+                <p>I'm Feeling Lucky</p>
+            </button>
+        </div>
+    </main>
 
-<footer class="main-footer">
-        <div class="grouped-items">
-            <p>Advertising</p>
-            <p>Business</p>
-            <p>How Search works</p>
-        </div>
-        <div class="grouped-items">
-            <p>Privacy</p>
-            <p>Terms</p>
-            <p>Settings</p>
-        </div>
-</footer>
+    <footer class="main-footer">
+            <div class="grouped-items">
+                <p>Advertising</p>
+                <p>Business</p>
+                <p>How Search works</p>
+            </div>
+            <div class="grouped-items">
+                <p>Privacy</p>
+                <p>Terms</p>
+                <p>Settings</p>
+            </div>
+    </footer>
 
 </body>
 
